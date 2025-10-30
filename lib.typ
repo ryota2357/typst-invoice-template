@@ -110,9 +110,8 @@
     },
     {
       grid(
-        columns: (auto, auto),
+        columns: (auto, 1fr),
         rows: (2em, auto),
-        column-gutter: 1em,
         align: (left, right),
         [日付:], date.display("[year]年[month]月[day]日"),
         [請求書番号:], date.display("[year][month][day]") + "-" + str(invoice-number-series),
