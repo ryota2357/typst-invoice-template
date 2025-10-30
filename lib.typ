@@ -98,7 +98,7 @@
       grid(
         columns: (auto, auto),
         rows: (1.6em, auto),
-        column-gutter: 1em,
+        column-gutter: 3em,
         [振込期限], due-date.display("[year]年[month]月[day]日"),
         [振込先], [
           銀行名: #account.bank \
