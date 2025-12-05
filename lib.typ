@@ -2,7 +2,7 @@
   title: [請求書],
   date: auto,
   invoice-number-series: 1,
-  due-date: datetime(year: 2025, month: 12, day: 31),
+  due-date: datetime(year: 2026, month: 1, day: 31),
   recipient: (
     name: [◯◯株式会社],
     postal-ccode: [123-4567],
