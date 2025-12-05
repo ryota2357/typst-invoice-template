@@ -14,6 +14,7 @@
   // account: (
   //   bank: [],
   //   branch: [],
+  //   type: [],
   //   number: [],
   //   holder: [],
   // ),

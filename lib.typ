@@ -16,6 +16,7 @@
   account: (
     bank: [◯◯銀行],
     branch: [△△支店],
+    type: [普通],
     number: [1234567],
     holder: [タナカ タロウ],
   ),
@@ -103,6 +104,7 @@
         [振込先], [
           銀行名: #account.bank \
           支店名: #account.branch \
+          口座種別: #account.type \
           口座番号: #account.number \
           口座名義: #account.holder
         ],
